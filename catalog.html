@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore | Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">TechStore</a>
+
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <nav class="nav">
+                    <a href="index.html" class="nav__link">Главная</a>
+                    <a href="catalog.html" class="nav__link active">Каталог</a>
+                    <a href="contacts.html" class="nav__link">Контакты</a>
+                    <form class="search-form">
+                        <input type="search" placeholder="Поиск...">
+                        <button type="submit">Найти</button>
+                    </form>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="catalog">
+            <div class="container">
+                <h1 class="section-title">Каталог товаров</h1>
+
+                <!-- Категории -->
+                <div class="categories">
+                    <a href="#gaming" class="category">Игровые ПК</a>
+                    <a href="#laptops" class="category">Ноутбуки</a>
+                    <a href="#monitors" class="category">Мониторы</a>
+                    <a href="#components" class="category">Комплектующие</a>
+                </div>
+
+                <!-- Секция игровых ПК -->
+                <section id="gaming" class="category-section">
+                    <h2 class="category-title">Игровые ПК</h2>
+                    <div class="products">
+                        <article class="product">
+                            <img src="images/pc1.jpg" alt="Игровой компьютер" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">Игровой ПК "Storm X"</h3>
+                                <p class="product__desc">Intel Core i7-13700K, RTX 4080, 32GB DDR5</p>
+                                <p class="product__price">189 990 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>
+                        </article>
+                        
+                        <article class="product">
+                            <img src="images/pc2.jpg" alt="Геймерский ПК" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">Геймерский ПК "Titan"</h3>
+                                <p class="product__desc">AMD Ryzen 7 7800X3D, RTX 4070 Ti, 32GB DDR5</p>
+                                <p class="product__price">164 990 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>
+                        </article>
+                        
+                        <article class="product">
+                            <img src="images/pc3.jpg" alt="ПК для игр" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">ПК для игр "Nova"</h3>
+                                <p class="product__desc">Intel Core i5-13600KF, RTX 4060, 16GB DDR4</p>
+                                <p class="product__price">109 990 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>              
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Секция ноутбуков -->
+                <section id="laptops" class="category-section">
+                    <h2 class="category-title">Ноутбуки</h2>
+                    <div class="products">
+                        <article class="product">
+                            <img src="images/laptop1.jpg" alt="Игровой ноутбук" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">MSI Katana 15</h3>
+                                <p class="product__desc">Intel Core i7, RTX 4060, 16GB RAM, 512GB SSD</p>
+                                <p class="product__price">122 990 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>
+                        </article>
+                        
+                        <article class="product">
+                            <img src="images/laptop2.jpg" alt="Игровой ноутбук" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">ASUS TUF Gaming F15</h3>
+                                <p class="product__desc">Intel Core i5, RTX 3050, 16GB RAM</p>
+                                <p class="product__price">89 990 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>
+                        </article>
+                        
+                        <article class="product">
+                            <img src="images/laptop3.jpg" alt="Ультрабук" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">Lenovo Legion Slim 5</h3>
+                                <p class="product__desc">Ryzen 7, RTX 4060, 16GB RAM</p>
+                                <p class="product__price">134 990 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>             
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Секция мониторов -->
+                <section id="monitors" class="category-section">
+                    <h2 class="category-title">Мониторы</h2>
+                    <div class="products">
+                        <article class="product">
+                            <img src="images/monitor1.png" alt="Монитор 27 дюймов" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">LG UltraGear 27GN950</h3>
+                                <p class="product__desc">27", 4K UHD, Nano IPS, 144 Гц</p>
+                                <p class="product__price">49 990 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>
+                        </article>
+                        
+                        <article class="product">
+                            <img src="images/monitor2.png" alt="Игровой монитор" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">Samsung Odyssey G7</h3>
+                                <p class="product__desc">32", QHD, 240 Гц, изогнутый экран</p>
+                                <p class="product__price">57 990 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>
+                        </article>
+                        
+                        <article class="product">
+                            <img src="images/monitor3.png" alt="Монитор Full HD" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">AOC 24G2</h3>
+                                <p class="product__desc">24", Full HD, IPS, 144 Гц</p>
+                                <p class="product__price">18 490 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Секция комплектующих -->
+                <section id="components" class="category-section">
+                    <h2 class="category-title">Комплектующие</h2>
+                    <div class="products">
+                        <article class="product">
+                            <img src="images/gpu1.jpg" alt="Видеокарта" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">Gigabyte RTX 4070</h3>
+                                <p class="product__desc">12GB GDDR6X, Windforce OC</p>
+                                <p class="product__price">63 990 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>
+                        </article>
+                        
+                        <article class="product">
+                            <img src="images/ssd1.jpg" alt="SSD накопитель" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">Samsung 980 PRO</h3>
+                                <p class="product__desc">1TB NVMe PCIe 4.0, до 7000 МБ/с</p>
+                                <p class="product__price">10 990 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>
+                        </article>
+                        
+                        <article class="product">
+                            <img src="images/ram1.jpg" alt="Оперативная память" class="product__img">
+                            <div class="product__info">
+                                <h3 class="product__title">Corsair Vengeance DDR5</h3>
+                                <p class="product__desc">32GB (2x16GB), 6000MHz</p>
+                                <p class="product__price">12 490 ₽</p>
+                                <button class="btn btn--small">В корзину</button>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 TechStore. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
