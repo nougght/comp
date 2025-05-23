@@ -113,7 +113,7 @@ body {
 
 /* Главная секция */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/bg-hero.jpg') center/cover no-repeat;
+    background: url('/images/bg-hero.jpg');
     color: var(--white);
     text-align: center;
     padding: 150px 0 100px;
