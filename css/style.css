@@ -113,7 +113,7 @@ body {
 
 /* Главная секция */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/bg-hero.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('../images/bg-hero.jpg') center/cover no-repeat;
     color: var(--white);
     text-align: center;
     padding: 150px 0 100px;
@@ -409,8 +409,8 @@ body {
 
 /* Категории */
 .categories {
-    width: fit-content;
-    margin: auto;
+    /* width: fit-content; */
+    /* margin: auto; */
     display: flex;
     gap: 15px;
     margin-bottom: 30px;
